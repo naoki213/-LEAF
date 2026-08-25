@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>制作のご依頼・お問い合わせ | LEAF</title>
+<meta name="description" content="LEAFへのホームページ制作のご依頼・お問い合わせフォームです。無料で仮制作を行い、気に入っていただけたら本制作へ進みます。">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+<header class="contact-header">
+  <a href="index.html" class="contact-header__logo">LEAF</a>
+</header>
+
+<main class="contact-page">
+  <section class="contact-intro">
+    <p class="contact-intro__eyebrow">CONTACT</p>
+    <h1>制作のご依頼・お問い合わせ</h1>
+
+    <ul class="contact-intro__flow">
+      <li><span class="num">1</span><span>無料で仮制作いたします。</span></li>
+      <li><span class="num">2</span><span>7日前後で仮HPをお送りします。気に入ったら本制作に移行します。</span></li>
+      <li><span class="num">3</span><span>本制作開始後は、目安3回ほど修正が可能です。</span></li>
+      <li><span class="num">4</span><span>その後の修正は、HP公開後に行います。</span></li>
+    </ul>
+
+    <p class="contact-intro__note">
+      下記フォームにご入力のうえ送信ボタンを押すと、Gmailの作成画面が開きます。<br>
+      内容をご確認いただき、そのまま送信してください。
+    </p>
+  </section>
+
+  <form class="contact-form" id="contact-form" novalidate>
+
+    <div class="form-section">
+      <h2>1. 基本情報</h2>
+      <div class="field">
+        <label class="field-label" for="name">お名前<span class="required">必須</span></label>
+        <input type="text" id="name" name="お名前" required>
+      </div>
+      <div class="field">
+        <label class="field-label" for="company">会社名・屋号<span class="optional">任意</span></label>
+        <input type="text" id="company" name="会社名・屋号">
+      </div>
+      <div class="field">
+        <label class="field-label" for="email">メールアドレス<span class="required">必須</span></label>
+        <input type="email" id="email" name="メールアドレス" required>
+      </div>
+      <div class="field">
+        <label class="field-label" for="tel">電話番号<span class="optional">任意</span></label>
+        <input type="tel" id="tel" name="電話番号">
+      </div>
+      <div class="field">
+        <label class="field-label" for="business">業種・事業内容<span class="required">必須</span></label>
+        <input type="text" id="business" name="業種・事業内容" required>
+      </div>
+      <div class="field">
+        <label class="field-label" for="current-url">現在のWebサイトURL<span class="optional">任意</span></label>
+        <input type="url" id="current-url" name="現在のWebサイトURL" placeholder="https://">
+      </div>
+      <div class="field">
+        <label class="field-label" for="sns-url">SNS URL(Instagram・Xなど)<span class="optional">任意</span></label>
+        <input type="text" id="sns-url" name="SNS URL">
+      </div>
+      <div class="field">
+        <label class="field-label" for="image-url">イメージHPのURL<span class="optional">任意</span></label>
+        <input type="url" id="image-url" name="イメージHPのURL" placeholder="https://">
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h2>2. 今回の依頼内容</h2>
+      <div class="field">
+        <label class="field-label">どのようなご相談ですか?<span class="required">必須</span></label>
+        <p class="field-hint">複数選択可</p>
+        <div class="check-grid" data-required-group="ご相談内容">
+          <label><input type="checkbox" name="ご相談内容" value="新しくホームページを作りたい">新しくホームページを作りたい</label>
+          <label><input type="checkbox" name="ご相談内容" value="今あるホームページをリニューアルしたい">今あるホームページをリニューアルしたい</label>
+          <label><input type="checkbox" name="ご相談内容" value="LPを作りたい">LPを作りたい</label>
+          <label><input type="checkbox" name="ご相談内容" value="店舗・サービスサイトを作りたい">店舗・サービスサイトを作りたい</label>
+          <label><input type="checkbox" name="ご相談内容" value="その他">その他</label>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label" for="reason">ホームページを作りたい理由<span class="optional">任意</span></label>
+        <textarea id="reason" name="ホームページを作りたい理由"></textarea>
+      </div>
+      <div class="field">
+        <label class="field-label" for="trouble">現在困っていること<span class="optional">任意</span></label>
+        <textarea id="trouble" name="現在困っていること"></textarea>
+      </div>
+      <div class="field">
+        <label class="field-label" for="goal">ホームページで叶えたいこと<span class="optional">任意</span></label>
+        <textarea id="goal" name="ホームページで叶えたいこと"></textarea>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h2>3. ホームページの目的</h2>
+      <p class="form-section__desc">制作時にとても重要な項目です。複数選択可</p>
+      <div class="check-grid">
+        <label><input type="checkbox" name="ホームページの目的" value="問い合わせを増やしたい">問い合わせを増やしたい</label>
+        <label><input type="checkbox" name="ホームページの目的" value="新規顧客を増やしたい">新規顧客を増やしたい</label>
+        <label><input type="checkbox" name="ホームページの目的" value="商品・サービスを紹介したい">商品・サービスを紹介したい</label>
+        <label><input type="checkbox" name="ホームページの目的" value="会社の信頼性を高めたい">会社の信頼性を高めたい</label>
+        <label><input type="checkbox" name="ホームページの目的" value="採用につなげたい">採用につなげたい</label>
+        <label><input type="checkbox" name="ホームページの目的" value="店舗への来店を増やしたい">店舗への来店を増やしたい</label>
+        <label><input type="checkbox" name="ホームページの目的" value="SNSからの受け皿にしたい">SNSからの受け皿にしたい</label>
+        <label><input type="checkbox" name="ホームページの目的" value="名刺代わりのサイトが欲しい">名刺代わりのサイトが欲しい</label>
+        <label><input type="checkbox" name="ホームページの目的" value="検索から集客したい">検索から集客したい</label>
+        <label><input type="checkbox" name="ホームページの目的" value="その他">その他</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h2>4. ターゲット</h2>
+      <div class="field">
+        <label class="field-label" for="target-who">主なお客様は誰ですか?<span class="optional">任意</span></label>
+        <textarea id="target-who" name="主なお客様"></textarea>
+      </div>
+      <div class="field">
+        <label class="field-label" for="target-age">年齢層<span class="optional">任意</span></label>
+        <input type="text" id="target-age" name="年齢層" placeholder="例:30〜50代">
+      </div>
+      <div class="field">
+        <label class="field-label">性別<span class="optional">任意</span></label>
+        <div class="radio-grid">
+          <label><input type="radio" name="性別" value="男性">男性</label>
+          <label><input type="radio" name="性別" value="女性">女性</label>
+          <label><input type="radio" name="性別" value="問わない">問わない</label>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label">個人向け / 法人向け<span class="optional">任意</span></label>
+        <div class="radio-grid">
+          <label><input type="radio" name="個人・法人" value="個人向け">個人向け</label>
+          <label><input type="radio" name="個人・法人" value="法人向け">法人向け</label>
+          <label><input type="radio" name="個人・法人" value="どちらも">どちらも</label>
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label" for="target-area">主な地域<span class="optional">任意</span></label>
+        <input type="text" id="target-area" name="主な地域">
+      </div>
+      <div class="field">
+        <label class="field-label" for="target-trouble">どんな悩みを持っている人か<span class="optional">任意</span></label>
+        <textarea id="target-trouble" name="どんな悩みを持っている人か"></textarea>
+      </div>
+      <div class="field">
+        <label class="field-label" for="target-inquiry">どんな人から問い合わせてほしいか<span class="optional">任意</span></label>
+        <textarea id="target-inquiry" name="どんな人から問い合わせてほしいか"></textarea>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h2>5. 掲載したいページ</h2>
+      <p class="form-section__desc">複数選択可</p>
+      <div class="check-grid">
+        <label><input type="checkbox" name="掲載したいページ" value="トップページ">トップページ</label>
+        <label><input type="checkbox" name="掲載したいページ" value="サービス・商品紹介">サービス・商品紹介</label>
+        <label><input type="checkbox" name="掲載したいページ" value="料金">料金</label>
+        <label><input type="checkbox" name="掲載したいページ" value="会社概要">会社概要</label>
+        <label><input type="checkbox" name="掲載したいページ" value="店舗情報">店舗情報</label>
+        <label><input type="checkbox" name="掲載したいページ" value="スタッフ紹介">スタッフ紹介</label>
+        <label><input type="checkbox" name="掲載したいページ" value="実績・事例">実績・事例</label>
+        <label><input type="checkbox" name="掲載したいページ" value="お客様の声">お客様の声</label>
+        <label><input type="checkbox" name="掲載したいページ" value="よくある質問">よくある質問</label>
+        <label><input type="checkbox" name="掲載したいページ" value="採用情報">採用情報</label>
+        <label><input type="checkbox" name="掲載したいページ" value="お知らせ">お知らせ</label>
+        <label><input type="checkbox" name="掲載したいページ" value="ブログ">ブログ</label>
+        <label><input type="checkbox" name="掲載したいページ" value="お問い合わせ">お問い合わせ</label>
+        <label><input type="checkbox" name="掲載したいページ" value="プライバシーポリシー">プライバシーポリシー</label>
+        <label><input type="checkbox" name="掲載したいページ" value="その他">その他</label>
+      </div>
+    </div>
+
+    <div class="form-section">
+      <h2>6. どのようなHPにしたいか</h2>
+      <div class="field">
+        <textarea id="free-note" name="どのようなHPにしたいか" rows="5"></textarea>
+      </div>
+    </div>
+
+    <div class="contact-submit">
+      <button type="submit" class="contact-submit__btn">確認してGmailで送信する →</button>
+      <p class="contact-submit__note">
+        ボタンを押すとGmailの作成画面が新しいタブで開きます。<br>
+        内容をご確認のうえ、送信をお願いいたします。
+      </p>
+    </div>
+  </form>
+
+  <p class="contact-back"><a href="index.html">トップページに戻る</a></p>
+</main>
+
+<script src="js/contact.js"></script>
+</body>
+</html>
