@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!name || !email || !business || consultTypes.length === 0) {
       window.alert(
-        "「お名前」「メールアドレス」「業種・事業内容」「ご相談内容(1つ以上)」は必須項目です。ご入力をお願いいたします。"
+        "「お名前」「メールアドレス」「業種・事業内容」「ご相談内容(1つ以上)」は必須項目です。ご入力くださいますようお願いいたします。"
       );
       return;
     }
