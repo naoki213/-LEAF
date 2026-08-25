@@ -4,19 +4,6 @@
   padding: 0 0 140px;
 }
 
-.contact-header {
-  padding: 28px 24px 8px;
-}
-
-.contact-header__logo {
-  display: inline-block;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.6rem;
-  letter-spacing: 0.12em;
-  color: #2c4b74;
-  text-decoration: none;
-}
-
 .contact-intro {
   padding: 20px 24px 8px;
 }

@@ -6,11 +6,20 @@
 <title>制作のご依頼・お問い合わせ | LEAF</title>
 <meta name="description" content="LEAFへのホームページ制作のご依頼・お問い合わせフォームです。無料で仮制作を行い、お気に召しましたら本制作へ進めさせていただきます。">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/nav.css">
 <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
-<header class="contact-header">
-  <a href="index.html" class="contact-header__logo">LEAF</a>
+<header class="site-header">
+  <a href="index.html" class="site-header__logo">LEAF</a>
+  <button type="button" class="site-header__menu-btn" data-nav-toggle aria-haspopup="true" aria-expanded="false" aria-label="メニューを開く">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="site-nav" data-nav-menu>
+    <a href="index.html">トップページ</a>
+    <a href="pricing.html">料金プラン</a>
+    <a href="contact.html">お問い合わせ</a>
+  </nav>
 </header>
 
 <main class="contact-page">
@@ -195,6 +204,7 @@
   <p class="contact-back"><a href="index.html">トップページに戻る</a></p>
 </main>
 
+<script src="js/nav.js"></script>
 <script src="js/contact.js"></script>
 </body>
 </html>
