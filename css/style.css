@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #eef0f6;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", sans-serif;
+}
+
+.lp {
+  max-width: 860px;
+  margin: 0 auto;
+  background-color: #eef0f6;
+}
+
+.lp img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
