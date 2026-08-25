@@ -24,3 +24,32 @@ body {
   width: 100%;
   height: auto;
 }
+
+.bottom-cta {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  z-index: 999;
+  width: min(92%, 460px);
+  opacity: 0;
+  transform: translate(-50%, 16px);
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.bottom-cta.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+  pointer-events: auto;
+}
+
+.bottom-cta__link {
+  display: block;
+}
+
+.bottom-cta img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 8px 20px rgba(60, 80, 130, 0.25));
+}
