@@ -22,6 +22,19 @@
   margin: 10px 0 20px;
 }
 
+.contact-intro__emphasis {
+  display: inline-block;
+  background: linear-gradient(135deg, #fdf1f4, #f6e3ea);
+  border: 1px solid #f0c9d5;
+  border-radius: 999px;
+  padding: 10px 20px;
+  color: #b9527a;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 22px;
+}
+
 .contact-intro__flow {
   background: linear-gradient(180deg, #ffffff, #eef2fb);
   border: 1px solid #dbe2f4;
@@ -55,6 +68,46 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.contact-intro__photo-tip {
+  background: #f6f8fd;
+  border: 1px dashed #cbd6ef;
+  border-radius: 16px;
+  padding: 16px 18px;
+  margin-bottom: 18px;
+}
+
+.contact-intro__photo-tip-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #2c4b74;
+  margin-bottom: 8px;
+}
+
+.contact-intro__photo-tip ul {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-intro__photo-tip li {
+  list-style: none;
+  position: relative;
+  padding-left: 18px;
+  font-size: 0.82rem;
+  color: #5c6a86;
+  line-height: 1.7;
+}
+
+.contact-intro__photo-tip li + li {
+  margin-top: 4px;
+}
+
+.contact-intro__photo-tip li::before {
+  content: "・";
+  position: absolute;
+  left: 0;
+  color: #8b96c5;
 }
 
 .contact-intro__note {
