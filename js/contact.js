@@ -82,12 +82,11 @@ document.addEventListener("DOMContentLoaded", () => {
       .join("\n\n");
 
     const subject = `【LEAF】制作のご依頼(${name}様)`;
-    const gmailUrl =
-      "https://mail.google.com/mail/?view=cm&fs=1" +
-      `&to=${encodeURIComponent(TO)}` +
-      `&su=${encodeURIComponent(subject)}` +
+    const mailtoUrl =
+      `mailto:${encodeURIComponent(TO)}` +
+      `?subject=${encodeURIComponent(subject)}` +
       `&body=${encodeURIComponent(body)}`;
 
-    window.open(gmailUrl, "_blank");
+    window.location.href = mailtoUrl;
   });
 });
